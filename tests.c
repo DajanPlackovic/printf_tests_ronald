@@ -34,9 +34,6 @@ int    main(void)
     printf("%d\n", printf("%p\n", &ptr));
     printf("%d\n", ft_printf("%p\n", &ptr));
 
-    printf("%d\n", printf("%p\n", NULL));
-    printf("%d\n", ft_printf("%p\n", NULL));
-
     printf("%d\n", printf("Hello world!\n"));
     printf("%d\n", ft_printf("Hello world!\n"));
 
@@ -48,4 +45,7 @@ int    main(void)
 
     printf("%d\n", printf("%s\n", NULL));
     printf("%d\n", ft_printf("%s\n", NULL));
+
+    printf("%d\n", printf("%p\n", NULL));
+    printf("%d\n", ft_printf("%p\n", NULL));
 }
