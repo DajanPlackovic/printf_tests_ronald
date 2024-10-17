@@ -48,4 +48,7 @@ int    main(void)
 
     printf("%d\n", printf("%p\n", NULL));
     printf("%d\n", ft_printf("%p\n", NULL));
+
+    printf("%d\n", printf(NULL));
+    printf("%d\n", ft_printf(NULL));
 }
